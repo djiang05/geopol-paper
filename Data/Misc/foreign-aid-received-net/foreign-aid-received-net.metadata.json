@@ -1,0 +1,55 @@
+{
+  "chart": {
+    "title": "Foreign aid received",
+    "subtitle": "[Net](#dod:net-oda) [official development assistance (ODA)](#dod:oda) from governments and multilateral organizations. This data is expressed in US dollars and adjusted for inflation.",
+    "note": "This data is expressed in constant 2022 US$.",
+    "citation": "OECD (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/foreign-aid-received-net?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Monaco",
+      "Ukraine",
+      "Syria",
+      "Egypt",
+      "Bangladesh",
+      "Ethiopia",
+      "Nigeria",
+      "Afghanistan"
+    ]
+  },
+  "columns": {
+    "Official development assistance (ODA) by recipient (Official donors)": {
+      "titleShort": "Foreign aid received",
+      "titleLong": "Foreign aid received - Official donors",
+      "descriptionShort": "[Official development assistance (ODA)](#dod:oda) is defined as government aid designed to promote the economic development and welfare of developing countries. Monetary aid is estimated as net disbursements. This data is expressed in US dollars. It is adjusted for inflation.",
+      "descriptionKey": [
+        "Official development assistance (ODA) is aid given to countries and territories on the OECD Development Assistance Committee (DAC) list of recipients and multilateral development institutions. To qualify as ODA, the aid has to serve the economic development and welfare of recipient countries and be either a grant or a loan with favorable terms.",
+        "DAC country recipients are all low- and middle-income countries as defined by the World Bank, or least-developed countries as defined by the United Nations. All recipients are listed on [the OECD website](https://www.oecd.org/en/topics/sub-issues/oda-eligibility-and-conditions/dac-list-of-oda-recipients.html).",
+        "Most ODA is provided by [DAC members](https://www.oecd.org/en/about/committees/development-assistance-committee.html), which are major aid donors in the OECD plus the European Union. However, some non-DAC countries, such as Turkey or Saudi Arabia, also give aid that follows ODA guidelines.",
+        "ODA does not include military aid, except for the cost of using armed forces to deliver humanitarian aid. It also excludes spending on peacekeeping unless it is closely related to development.",
+        "The data is reported as net disbursements. This refers to aid ultimately given and is different from commitments, which is only aid that has been pledged. These are net amounts because any money coming in (like loan repayments or interest) has been subtracted from money going out (like new grants or loans).",
+        "The data is measured in constant 2022 US$ – this adjusts for inflation."
+      ],
+      "shortUnit": "$",
+      "unit": "constant 2022 US$",
+      "timespan": "1960-2023",
+      "type": "Numeric",
+      "owidVariableId": 1012392,
+      "shortName": "oda_recipient__donor_official_donors",
+      "lastUpdated": "2025-02-19",
+      "nextUpdate": "2026-02-19",
+      "citationShort": "OECD (2025) – with minor processing by Our World in Data",
+      "citationLong": "OECD (2025) – with minor processing by Our World in Data. “Foreign aid received – Official donors” [dataset]. OECD, “OECD Official Development Assistance (ODA) - DAC2A: Aid (ODA) disbursements to countries and regions” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1012392.metadata.json"
+    },
+    "1012392-annotations": {
+      "titleShort": "1012392-annotations",
+      "titleLong": "1012392-annotations",
+      "type": "SeriesAnnotation",
+      "citationShort": " – processed by Our World in Data",
+      "citationLong": " – processed by Our World in Data. “1012392-annotations” [dataset].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/undefined.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-03-23",
+  "activeFilters": {}
+}

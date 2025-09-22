@@ -1,0 +1,40 @@
+{
+  "chart": {
+    "title": "Political corruption index",
+    "subtitle": "Based on the expert estimates and index by [V-Dem](#dod:v-dem). It captures the extent to which the executive, legislative, judiciary, and bureaucracy engage in bribery and theft, and the making and implementing of laws are susceptible to corruption.",
+    "citation": "V-Dem (2025)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/political-corruption-index?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "World",
+      "Argentina",
+      "Australia",
+      "Botswana",
+      "China"
+    ]
+  },
+  "columns": {
+    "Political corruption index (central estimate, aggregate: average)": {
+      "titleShort": "Political corruption index",
+      "titleLong": "Political corruption index - (central estimate)",
+      "descriptionShort": "Central estimate of the extent to which a country is affected by political corruption.",
+      "descriptionKey": [
+        "Measures the extent of political corruption across executive, legislative, judicial, and public sectors.",
+        "Includes both petty and grand corruption, such as bribery, embezzlement, and misuse of office.",
+        "Higher values (0–1 scale) indicate more pervasive corruption, reversing the typical V-Dem index direction."
+      ],
+      "descriptionProcessing": "The regional aggregates (including values for the World) have been estimated by averaging the country values.",
+      "unit": "",
+      "timespan": "1789-2024",
+      "type": "Numeric",
+      "owidVariableId": 1015668,
+      "shortName": "corruption_vdem__estimate_best__aggregate_method_average",
+      "lastUpdated": "2025-03-17",
+      "nextUpdate": "2026-03-17",
+      "citationShort": "V-Dem (2025) – processed by Our World in Data",
+      "citationLong": "V-Dem (2025) – processed by Our World in Data. “Political corruption index – (central estimate)” [dataset]. V-Dem, “Democracy report v15” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1015668.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-04-30",
+  "activeFilters": {}
+}

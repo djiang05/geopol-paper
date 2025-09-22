@@ -1,0 +1,44 @@
+{
+  "chart": {
+    "title": "Government health spending as a share of GDP",
+    "subtitle": "This metric captures spending on government funded health care systems and social health insurance, as well as compulsory health insurance.",
+    "note": "Health spending includes final consumption of health care goods and services (i.e. current health expenditure). This excludes spending on capital investments.",
+    "citation": "OECD Health Expenditure and Financing Database (2024); OECD (1993); Lindert (1994)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/public-health-expenditure-share-gdp?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "Sweden",
+      "France",
+      "Germany",
+      "Japan",
+      "United Kingdom",
+      "Spain",
+      "Australia",
+      "New Zealand",
+      "Canada"
+    ]
+  },
+  "columns": {
+    "Public health expenditure as a share of GDP": {
+      "titleShort": "Public health expenditure as a share of GDP",
+      "titleLong": "Public health expenditure as a share of GDP - Lindert, OECD – Historical data",
+      "descriptionShort": "Public health expenditure divided by gross domestic product, expressed as a percentage.",
+      "descriptionKey": [
+        "This indicator combines three different datasets: Lindert (1994), OECD (1993), and the OECD Health Expenditure and Financing Database. We combine the two OECD datasets by using the implicit growth rate from the older series, so we can extend the series back to 1960. We also use the data from Lindert (1994) to extend the series to 1880."
+      ],
+      "descriptionProcessing": "We extrapolated the data available from the OECD Health Expenditure and Financing Database (Government/compulsory schemes) using the earliest available observation from this dataset and applying the growth rates implied by the OECD (1993) data to obtain a series starting in 1960. These steps are necessary because the data in these years is not exactly the same for the two datasets due to changes in definitions and measurement, though the trends are consistent for common years (1970-1991).\n\nWe don't transform the data from Lindert (1994), the values are the same as in the original source.",
+      "shortUnit": "%",
+      "unit": "% of GDP",
+      "timespan": "1880-2023",
+      "type": "Numeric",
+      "owidVariableId": 1014798,
+      "shortName": "share_gdp",
+      "lastUpdated": "2025-03-04",
+      "nextUpdate": "2026-03-04",
+      "citationShort": "OECD Health Expenditure and Financing Database (2024); OECD (1993); Lindert (1994) – with major processing by Our World in Data",
+      "citationLong": "OECD Health Expenditure and Financing Database (2024); OECD (1993); Lindert (1994) – with major processing by Our World in Data. “Public health expenditure as a share of GDP – Lindert, OECD – Historical data” [dataset]. OECD Health Expenditure and Financing Database, “OECD Health Expenditure and Financing Database”; OECD, “OECD Health Systems”; Lindert, “The rise of social spending (1880-1930)” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1014798.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-05-08",
+  "activeFilters": {}
+}
